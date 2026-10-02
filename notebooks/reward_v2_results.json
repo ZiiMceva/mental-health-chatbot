@@ -1,0 +1,97 @@
+{
+  "reward_version": "reward_v2 (Decision A: click generated separately, click=0 -> playtime=0 deterministically)",
+  "original_warmstart_5seeds": {
+    "random": {
+      "mean": 0.1868,
+      "std": 0.0131
+    },
+    "pop_best": {
+      "mean": 0.3224,
+      "std": 0.0376
+    },
+    "non_pers": {
+      "mean": 0.3293,
+      "std": 0.0437
+    },
+    "pers": {
+      "mean": 0.3246,
+      "std": 0.0389
+    },
+    "optimal": {
+      "mean": 0.602,
+      "std": 0.0067
+    }
+  },
+  "original_pers_vs_nonpers_paired": {
+    "t": -1.002,
+    "p": 0.373
+  },
+  "corrected_coldstart_5seeds": {
+    "random": {
+      "mean": 0.1868,
+      "std": 0.0131
+    },
+    "pop_best": {
+      "mean": 0.3224,
+      "std": 0.0376
+    },
+    "non_pers": {
+      "mean": 0.3293,
+      "std": 0.0437
+    },
+    "pers": {
+      "mean": 0.5118,
+      "std": 0.009
+    },
+    "optimal": {
+      "mean": 0.602,
+      "std": 0.0067
+    }
+  },
+  "corrected_coldstart_20seeds": {
+    "random": {
+      "mean": 0.1969,
+      "std": 0.0292
+    },
+    "pop_best": {
+      "mean": 0.3269,
+      "std": 0.0327
+    },
+    "non_pers": {
+      "mean": 0.3289,
+      "std": 0.0338
+    },
+    "pers": {
+      "mean": 0.5076,
+      "std": 0.0211
+    },
+    "optimal": {
+      "mean": 0.5988,
+      "std": 0.018
+    }
+  },
+  "corrected_pers_vs_nonpers_paired_n5": {
+    "t": 9.0,
+    "p": 0.0008
+  },
+  "corrected_pers_vs_nonpers_paired_n20": {
+    "t": 24.994,
+    "p": 5.352082383493223e-16,
+    "cohen_d": 5.589,
+    "ci95": [
+      0.1637,
+      0.1936
+    ]
+  },
+  "permutation_test_n20": {
+    "obs_diff": 0.1787,
+    "p": 0.0
+  },
+  "holm_bonferroni_n20": {
+    "pers_vs_nonpers": 0.0,
+    "nonpers_vs_random": 0.0,
+    "popbest_vs_random": 0.0,
+    "nonpers_vs_popbest": 0.40966908
+  },
+  "optimal_violations_n20": 0
+}
