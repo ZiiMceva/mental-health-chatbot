@@ -7,3 +7,21 @@ frontend/node_modules/
 frontend/dist/
 *.sqlite3
 chroma_db/
+
+# --- added before publication ---
+# local environments and IDE
+venv/
+backend/venv/
+.idea/
+# trained model weights (too large; share via Hugging Face / Zenodo if needed)
+models/
+# participant data from the external validation study (not public)
+notebooks/predictions_70.csv
+notebooks/predictions_70_truncated.csv
+notebooks/master_validation_dataset*.csv
+notebooks/texts_truncated_for_rerun.csv
+notebooks/real_user_validation.ipynb
+# caches, archives, old drafts
+notebooks/taxonomy_ablation_cache/
+*.zip
+проект/

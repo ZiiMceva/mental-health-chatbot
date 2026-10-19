@@ -1,0 +1,61 @@
+{
+  "model": "mental/mental-roberta-base",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "results": [
+    {
+      "seed": 42,
+      "model": "mental/mental-roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.8235,
+      "accuracy": 0.8238,
+      "roc_auc": 0.8973,
+      "loss": 0.195
+    },
+    {
+      "seed": 123,
+      "model": "mental/mental-roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.8222,
+      "accuracy": 0.8224,
+      "roc_auc": 0.8991,
+      "loss": 0.2313
+    },
+    {
+      "seed": 456,
+      "model": "mental/mental-roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.8282,
+      "accuracy": 0.8294,
+      "roc_auc": 0.9046,
+      "loss": 0.3321
+    },
+    {
+      "seed": 789,
+      "model": "mental/mental-roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.806,
+      "accuracy": 0.8084,
+      "roc_auc": 0.8932,
+      "loss": 0.3232
+    },
+    {
+      "seed": 2024,
+      "model": "mental/mental-roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.8022,
+      "accuracy": 0.8028,
+      "roc_auc": 0.8939,
+      "loss": 0.1924
+    }
+  ],
+  "summary": {
+    "mean_f1": 0.8164,
+    "std_f1": 0.0103
+  }
+}

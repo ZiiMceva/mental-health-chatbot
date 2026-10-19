@@ -1,0 +1,167 @@
+{
+  "experiment": "Exp 4 v4: Subgroup Analysis",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "N_users_per_type": 20,
+  "N_sessions": 100,
+  "results": [
+    {
+      "seed": 42,
+      "by_type": {
+        "0": {
+          "nonpers_mean": 0.8134,
+          "pers_mean": 0.8044,
+          "delta": -0.009,
+          "top_game_nonpers": "nature_walk",
+          "top_game_pers": "nature_walk"
+        },
+        "1": {
+          "nonpers_mean": 0.6642,
+          "pers_mean": 0.6702,
+          "delta": 0.0059,
+          "top_game_nonpers": "positive_memory",
+          "top_game_pers": "positive_memory"
+        },
+        "2": {
+          "nonpers_mean": 0.7657,
+          "pers_mean": 0.7699,
+          "delta": 0.0042,
+          "top_game_nonpers": "positive_memory",
+          "top_game_pers": "positive_memory"
+        }
+      }
+    },
+    {
+      "seed": 123,
+      "by_type": {
+        "0": {
+          "nonpers_mean": 0.8218,
+          "pers_mean": 0.8036,
+          "delta": -0.0182,
+          "top_game_nonpers": "positive_memory",
+          "top_game_pers": "positive_memory"
+        },
+        "1": {
+          "nonpers_mean": 0.6581,
+          "pers_mean": 0.6541,
+          "delta": -0.004,
+          "top_game_nonpers": "breathing_game",
+          "top_game_pers": "breathing_game"
+        },
+        "2": {
+          "nonpers_mean": 0.7664,
+          "pers_mean": 0.7642,
+          "delta": -0.0021,
+          "top_game_nonpers": "bubble_pop",
+          "top_game_pers": "bubble_pop"
+        }
+      }
+    },
+    {
+      "seed": 456,
+      "by_type": {
+        "0": {
+          "nonpers_mean": 0.8025,
+          "pers_mean": 0.797,
+          "delta": -0.0055,
+          "top_game_nonpers": "breathing_game",
+          "top_game_pers": "bubble_pop"
+        },
+        "1": {
+          "nonpers_mean": 0.6586,
+          "pers_mean": 0.6577,
+          "delta": -0.0009,
+          "top_game_nonpers": "breathing_game",
+          "top_game_pers": "breathing_game"
+        },
+        "2": {
+          "nonpers_mean": 0.7575,
+          "pers_mean": 0.7667,
+          "delta": 0.0092,
+          "top_game_nonpers": "positive_memory",
+          "top_game_pers": "positive_memory"
+        }
+      }
+    },
+    {
+      "seed": 789,
+      "by_type": {
+        "0": {
+          "nonpers_mean": 0.8116,
+          "pers_mean": 0.7987,
+          "delta": -0.0129,
+          "top_game_nonpers": "nature_walk",
+          "top_game_pers": "nature_walk"
+        },
+        "1": {
+          "nonpers_mean": 0.6566,
+          "pers_mean": 0.656,
+          "delta": -0.0006,
+          "top_game_nonpers": "breathing_game",
+          "top_game_pers": "breathing_game"
+        },
+        "2": {
+          "nonpers_mean": 0.7682,
+          "pers_mean": 0.7648,
+          "delta": -0.0033,
+          "top_game_nonpers": "breathing_game",
+          "top_game_pers": "breathing_game"
+        }
+      }
+    },
+    {
+      "seed": 2024,
+      "by_type": {
+        "0": {
+          "nonpers_mean": 0.8187,
+          "pers_mean": 0.8144,
+          "delta": -0.0043,
+          "top_game_nonpers": "positive_memory",
+          "top_game_pers": "positive_memory"
+        },
+        "1": {
+          "nonpers_mean": 0.6612,
+          "pers_mean": 0.6548,
+          "delta": -0.0064,
+          "top_game_nonpers": "nature_walk",
+          "top_game_pers": "nature_walk"
+        },
+        "2": {
+          "nonpers_mean": 0.7694,
+          "pers_mean": 0.761,
+          "delta": -0.0084,
+          "top_game_nonpers": "nature_walk",
+          "top_game_pers": "nature_walk"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "0": {
+      "name": "Calm",
+      "nonpers_mean": 0.8136,
+      "pers_mean": 0.8036,
+      "delta": -0.01,
+      "p_value": 0.0172
+    },
+    "1": {
+      "name": "Active",
+      "nonpers_mean": 0.6597,
+      "pers_mean": 0.6586,
+      "delta": -0.0012,
+      "p_value": 0.6021
+    },
+    "2": {
+      "name": "Mixed",
+      "nonpers_mean": 0.7654,
+      "pers_mean": 0.7653,
+      "delta": -0.0001,
+      "p_value": 0.9707
+    }
+  }
+}

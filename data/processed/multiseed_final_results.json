@@ -1,0 +1,65 @@
+{
+  "experiment": "multi-seed stress detection",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "config": {
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "batch_size": 16,
+    "max_length": 128,
+    "epochs": 3,
+    "grad_clip": 1.0,
+    "num_labels": 2
+  },
+  "note": "Seeds 789,2024 best epoch selected per run",
+  "models": {
+    "bert_base": {
+      "per_seed": {
+        "42": 0.7914,
+        "123": 0.7898,
+        "456": 0.7846,
+        "789": 0.7913,
+        "2024": 0.7928
+      },
+      "mean": 0.79,
+      "std": 0.0029
+    },
+    "roberta_base": {
+      "per_seed": {
+        "42": 0.798,
+        "123": 0.8134,
+        "456": 0.803,
+        "789": 0.8018,
+        "2024": 0.7995
+      },
+      "mean": 0.8031,
+      "std": 0.0054
+    },
+    "mental_roberta": {
+      "per_seed": {
+        "42": 0.8235,
+        "123": 0.8222,
+        "456": 0.8282,
+        "789": 0.806,
+        "2024": 0.8091
+      },
+      "mean": 0.8178,
+      "std": 0.0087
+    }
+  },
+  "statistics": {
+    "vs_bert": {
+      "t": 6.103,
+      "p": 0.0003
+    },
+    "vs_roberta": {
+      "t": 2.87,
+      "p": 0.0208
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "model": "roberta-base",
+  "task": "5-class clinical emotion taxonomy",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "results": [
+    {
+      "seed": 42,
+      "model": "roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.7479,
+      "macro_f1": 0.5679,
+      "accuracy": 0.7146,
+      "loss": 0.7585
+    },
+    {
+      "seed": 123,
+      "model": "roberta-base",
+      "best_epoch": 5,
+      "weighted_f1": 0.7366,
+      "macro_f1": 0.5503,
+      "accuracy": 0.7013,
+      "loss": 0.3537
+    },
+    {
+      "seed": 456,
+      "model": "roberta-base",
+      "best_epoch": 1,
+      "weighted_f1": 0.7701,
+      "macro_f1": 0.5699,
+      "accuracy": 0.7447,
+      "loss": 1.1418
+    },
+    {
+      "seed": 789,
+      "model": "roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.768,
+      "macro_f1": 0.5768,
+      "accuracy": 0.7407,
+      "loss": 0.7577
+    },
+    {
+      "seed": 2024,
+      "model": "roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.7586,
+      "macro_f1": 0.5769,
+      "accuracy": 0.7283,
+      "loss": 0.5937
+    }
+  ],
+  "summary": {
+    "mean_weighted_f1": 0.7562,
+    "std_weighted_f1": 0.0126
+  }
+}

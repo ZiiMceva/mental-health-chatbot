@@ -1,0 +1,168 @@
+{
+  "experiment": "Exp 4 v3: Non-pers vs Pers LinUCB",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "N_users": 50,
+  "N_sessions": 100,
+  "N_avg": 10,
+  "user_pref": "\u00b10.30 + user_type bias",
+  "results": [
+    {
+      "seed": 42,
+      "nonpers_mean": 0.7652,
+      "pers_mean": 0.7695,
+      "improvement": 0.0044,
+      "nonpers_curve": [
+        0.7656,
+        0.7664,
+        0.7541,
+        0.7673,
+        0.7724
+      ],
+      "pers_curve": [
+        0.7692,
+        0.7684,
+        0.7666,
+        0.7688,
+        0.7746
+      ],
+      "late_nonpers": 0.7724,
+      "late_pers": 0.7746
+    },
+    {
+      "seed": 123,
+      "nonpers_mean": 0.7748,
+      "pers_mean": 0.7707,
+      "improvement": -0.0041,
+      "nonpers_curve": [
+        0.7771,
+        0.7719,
+        0.7681,
+        0.7834,
+        0.7734
+      ],
+      "pers_curve": [
+        0.7734,
+        0.7717,
+        0.7664,
+        0.7707,
+        0.7713
+      ],
+      "late_nonpers": 0.7734,
+      "late_pers": 0.7713
+    },
+    {
+      "seed": 456,
+      "nonpers_mean": 0.7718,
+      "pers_mean": 0.7725,
+      "improvement": 0.0006,
+      "nonpers_curve": [
+        0.773,
+        0.7779,
+        0.7709,
+        0.7639,
+        0.7735
+      ],
+      "pers_curve": [
+        0.7689,
+        0.7803,
+        0.7688,
+        0.776,
+        0.7681
+      ],
+      "late_nonpers": 0.7735,
+      "late_pers": 0.7681
+    },
+    {
+      "seed": 789,
+      "nonpers_mean": 0.7699,
+      "pers_mean": 0.7678,
+      "improvement": -0.0021,
+      "nonpers_curve": [
+        0.772,
+        0.7706,
+        0.7729,
+        0.7662,
+        0.7677
+      ],
+      "pers_curve": [
+        0.7679,
+        0.7659,
+        0.7676,
+        0.7638,
+        0.7735
+      ],
+      "late_nonpers": 0.7677,
+      "late_pers": 0.7735
+    },
+    {
+      "seed": 2024,
+      "nonpers_mean": 0.7769,
+      "pers_mean": 0.7693,
+      "improvement": -0.0075,
+      "nonpers_curve": [
+        0.7716,
+        0.7801,
+        0.7826,
+        0.7826,
+        0.7675
+      ],
+      "pers_curve": [
+        0.7709,
+        0.7707,
+        0.7709,
+        0.7721,
+        0.7621
+      ],
+      "late_nonpers": 0.7675,
+      "late_pers": 0.7621
+    }
+  ],
+  "summary": {
+    "overall": {
+      "nonpers": {
+        "mean": 0.7717,
+        "std": 0.0041
+      },
+      "pers": {
+        "mean": 0.77,
+        "std": 0.0016
+      },
+      "t": -0.81,
+      "p": 0.4414
+    },
+    "late_sessions": {
+      "nonpers": {
+        "mean": 0.7709,
+        "std": 0.0027
+      },
+      "pers": {
+        "mean": 0.7699,
+        "std": 0.0045
+      },
+      "t": -0.373,
+      "p": 0.7189
+    },
+    "curves": {
+      "nonpers": [
+        0.7719,
+        0.7734,
+        0.7697,
+        0.7727,
+        0.7709
+      ],
+      "pers": [
+        0.7701,
+        0.7714,
+        0.7681,
+        0.7703,
+        0.7699
+      ]
+    }
+  }
+}

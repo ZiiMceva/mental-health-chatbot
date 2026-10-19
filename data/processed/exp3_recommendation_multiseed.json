@@ -1,0 +1,75 @@
+{
+  "experiment": "Experiment 3: Recommendation 5 seeds",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "results": [
+    {
+      "seed": 42,
+      "random": 0.905,
+      "rule": -0.7,
+      "bandit": -0.0645,
+      "optimal": 1.0
+    },
+    {
+      "seed": 123,
+      "random": -0.7,
+      "rule": 1.0,
+      "bandit": 1.0,
+      "optimal": 1.0
+    },
+    {
+      "seed": 456,
+      "random": 0.4949,
+      "rule": 1.0,
+      "bandit": 1.0,
+      "optimal": 0.364
+    },
+    {
+      "seed": 789,
+      "random": 0.355,
+      "rule": 0.369,
+      "bandit": 0.799,
+      "optimal": -0.7
+    },
+    {
+      "seed": 2024,
+      "random": -0.7,
+      "rule": 1.0,
+      "bandit": 0.36,
+      "optimal": 0.338
+    }
+  ],
+  "summary": {
+    "random": {
+      "mean": 0.071,
+      "std": 0.6549
+    },
+    "rule_based": {
+      "mean": 0.5338,
+      "std": 0.6635
+    },
+    "bandit": {
+      "mean": 0.6189,
+      "std": 0.414
+    },
+    "optimal": {
+      "mean": 0.4004,
+      "std": 0.6221
+    }
+  },
+  "statistics": {
+    "vs_random": {
+      "t": 1.414,
+      "p": 0.195
+    },
+    "vs_rule": {
+      "t": 0.218,
+      "p": 0.8332
+    }
+  }
+}

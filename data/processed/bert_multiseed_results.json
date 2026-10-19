@@ -1,0 +1,61 @@
+{
+  "model": "bert-base-uncased",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "results": [
+    {
+      "seed": 42,
+      "model": "bert-base-uncased",
+      "best_epoch": 2,
+      "weighted_f1": 0.7914,
+      "accuracy": 0.7916,
+      "roc_auc": 0.87,
+      "loss": 0.3386
+    },
+    {
+      "seed": 123,
+      "model": "bert-base-uncased",
+      "best_epoch": 3,
+      "weighted_f1": 0.7898,
+      "accuracy": 0.7902,
+      "roc_auc": 0.8758,
+      "loss": 0.2053
+    },
+    {
+      "seed": 456,
+      "model": "bert-base-uncased",
+      "best_epoch": 2,
+      "weighted_f1": 0.7846,
+      "accuracy": 0.7846,
+      "roc_auc": 0.8729,
+      "loss": 0.3568
+    },
+    {
+      "seed": 789,
+      "model": "bert-base-uncased",
+      "best_epoch": 2,
+      "weighted_f1": 0.7913,
+      "accuracy": 0.7916,
+      "roc_auc": 0.8752,
+      "loss": 0.3236
+    },
+    {
+      "seed": 2024,
+      "model": "bert-base-uncased",
+      "best_epoch": 3,
+      "weighted_f1": 0.7928,
+      "accuracy": 0.793,
+      "roc_auc": 0.8733,
+      "loss": 0.2053
+    }
+  ],
+  "summary": {
+    "mean_f1": 0.79,
+    "std_f1": 0.0029
+  }
+}

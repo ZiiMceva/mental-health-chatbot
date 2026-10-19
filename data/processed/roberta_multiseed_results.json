@@ -1,0 +1,61 @@
+{
+  "model": "roberta-base",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "results": [
+    {
+      "seed": 42,
+      "model": "roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.798,
+      "accuracy": 0.7986,
+      "roc_auc": 0.881,
+      "loss": 0.2147
+    },
+    {
+      "seed": 123,
+      "model": "roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.8134,
+      "accuracy": 0.814,
+      "roc_auc": 0.8916,
+      "loss": 0.3446
+    },
+    {
+      "seed": 456,
+      "model": "roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.803,
+      "accuracy": 0.8042,
+      "roc_auc": 0.8893,
+      "loss": 0.3507
+    },
+    {
+      "seed": 789,
+      "model": "roberta-base",
+      "best_epoch": 3,
+      "weighted_f1": 0.8018,
+      "accuracy": 0.8028,
+      "roc_auc": 0.8879,
+      "loss": 0.2208
+    },
+    {
+      "seed": 2024,
+      "model": "roberta-base",
+      "best_epoch": 2,
+      "weighted_f1": 0.7995,
+      "accuracy": 0.8,
+      "roc_auc": 0.8918,
+      "loss": 0.3446
+    }
+  ],
+  "summary": {
+    "mean_f1": 0.8031,
+    "std_f1": 0.0054
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "experiment": "Experiment 4: Personalization",
+  "description": "Non-personalized vs Personalized LinUCB",
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "N_users": 20,
+  "N_sessions_per_user": 25,
+  "N_avg": 10,
+  "results": [
+    {
+      "seed": 42,
+      "non_personalized": 0.7769,
+      "personalized": 0.7607,
+      "improvement": -0.0162
+    },
+    {
+      "seed": 123,
+      "non_personalized": 0.7711,
+      "personalized": 0.7646,
+      "improvement": -0.0065
+    },
+    {
+      "seed": 456,
+      "non_personalized": 0.7571,
+      "personalized": 0.7549,
+      "improvement": -0.0021
+    },
+    {
+      "seed": 789,
+      "non_personalized": 0.7488,
+      "personalized": 0.7448,
+      "improvement": -0.004
+    },
+    {
+      "seed": 2024,
+      "non_personalized": 0.7605,
+      "personalized": 0.7564,
+      "improvement": -0.0041
+    }
+  ],
+  "summary": {
+    "non_personalized": {
+      "mean": 0.7629,
+      "std": 0.01
+    },
+    "personalized": {
+      "mean": 0.7563,
+      "std": 0.0067
+    },
+    "improvement": {
+      "absolute": -0.0066,
+      "percent": -0.87
+    }
+  },
+  "statistics": {
+    "independent_t": {
+      "t": -1.097,
+      "p": 0.3046
+    },
+    "paired_t": {
+      "t": -2.645,
+      "p": 0.0573
+    }
+  }
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Adaptive stress-aware recommendation of supportive engagement activities for digital mental health: code"
+type: software
+license: MIT
+repository-code: "https://github.com/ZiiMceva/mental-health-chatbot"
+version: "1.0.0"
+date-released: "2026-10-19"
+authors:
+  - family-names: "Makaeva"
+    given-names: "Ziinat"
+    affiliation: "Department of Computer Engineering, Inje University, Republic of Korea"
+  - family-names: "Ahmed"
+    given-names: "Muhammad"
+    affiliation: "Department of Digital Anti-Aging & Healthcare, Inje University, Republic of Korea"
+  - family-names: "Mozumder"
+    given-names: "Md Ariful Islam"
+    affiliation: "Department of Digital Anti-Aging & Healthcare, Inje University, Republic of Korea"
+  - family-names: "Jabeen"
+    given-names: "Sabeeha"
+    affiliation: "Department of Digital Anti-Aging & Healthcare, Inje University, Republic of Korea"
+  - family-names: "Kim"
+    given-names: "Hee-Cheol"
+    affiliation: "Department of Digital Anti-Aging & Healthcare, Inje University, Republic of Korea"
